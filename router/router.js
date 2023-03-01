@@ -35,7 +35,7 @@ router.post("/",(req, res) =>{
 router.patch("/:id",(req, res) =>{
     const id = req.params.id;
     res.status(200).json({
-        message:"successful put by ID",
+        message:"successful patch by ID",
         id,
         metadata:{
             hostname: req.hostname,
